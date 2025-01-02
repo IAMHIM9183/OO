@@ -187,7 +187,15 @@ local Button = Tab:CreateButton({
 loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Best-RTX-Script-9042"))()
    end,
 })
+local Tab = Window:CreateTab("سكنات🤩🔥") -- Title, Image
+local Section = Tab:CreateSection("السكربتات :")
+local Button = Tab:CreateButton({
+   Name = "راس فضائي👽",
+   Callback = function() 
 
+loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Best-RTX-Script-9042"))()
+   end,
+})
 Rayfield:Notify({
    Title = "انا بندوره الحمره🔥",
    Content = "من صنعي😜",
