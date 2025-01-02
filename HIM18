@@ -202,23 +202,3 @@ Rayfield:Notify({
    Image = 9794138570,
 })
 local Tab = Window:CreateTab("سكنات🤯👑") -- Title, Image
-
-local Section = Tab:CreateSection("السكربتات :")
-local Button = Tab:CreateButton({
-   Name = "Button Example",
-   Callback = function()
-   [1] = "CharacterChange",
-    [2] = {
-        [1] = 1,
-        [2] = 1,
-        [3] = 1,
-        [4] = 1,
-        [5] = 1,
-        [6] = 3210773801
-    },
-    [3] = "Roblox20"
-}
-
-game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):FireServer(unpack(args))
-   end,
-})
