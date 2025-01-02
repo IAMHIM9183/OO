@@ -228,6 +228,25 @@ args = {
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):FireServer(unpack(args))
 end,
 })
+local Button = Tab3:CreateButton({
+   Name = "Blush Fashion Doll (Gray Torso)",
+   Callback = function()
+local args = {
+    [1] = "CharacterChange",
+    [2] = {
+        [1] = 15599926323,
+        [2] = 15599926845,
+        [3] = 15599926809,
+        [4] = 1,
+        [5] = 1,
+        [6] = 1
+    },
+    [3] = "YinHub"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):FireServer(unpack(args))
+  end,
+})
 local Button = Tab:CreateButton({
    Name = "رجل مقطوعه",
    Callback = function() 
