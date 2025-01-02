@@ -190,8 +190,8 @@ loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Best-RTX-Sc
 local Tab = Window:CreateTab("سكنات🤩🔥") -- Title, Image
 local Section = Tab:CreateSection("السكربتات :")
 local Button = Tab:CreateButton({
-	Name = "راس روبوت 🤖",
-	Callback = function()
+   Name = "راس الروبوت🤖",
+   Callback = function() 
 args = {
     [1] = "CharacterChange",
     [2] = {
