@@ -229,7 +229,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):Fire
 end,
 })
 local Button = Tab3:CreateButton({
-   Name = "Blush Fashion Doll (Gray Torso)",
+   Name = "جسم البنت",
    Callback = function()
 local args = {
     [1] = "CharacterChange",
