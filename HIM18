@@ -228,7 +228,7 @@ args = {
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):FireServer(unpack(args))
 end,
 })
-local Button = Tab3:CreateButton({
+local Button = Tab:CreateButton({
    Name = "جسم البنت",
    Callback = function()
 local args = {
