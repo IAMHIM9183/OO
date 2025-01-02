@@ -1,6 +1,6 @@
 local args = {
     [1] = "RolePlayBio",
-    [2] = "مطور السكربت الفقمه/عمر👻"
+    [2] = "مطور السكربت الفقمه👻"
 }
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
