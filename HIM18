@@ -201,4 +201,3 @@ Rayfield:Notify({
    Duration = 5,
    Image = 9794138570,
 })
-local Tab = Window:CreateTab("سكنات🤯👑") -- Title, Image
