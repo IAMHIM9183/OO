@@ -1,11 +1,17 @@
+local args = {
+    [1] = "RolePlayBio",
+    [2] = "\240\159\145\190من صنع ام قرون 😈 \240\159\145\190"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "سكريت المطور فقمه😰🔥",
+   Name = "سكريت المطوره كيان😰🔥",
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
-   LoadingTitle = "من صنع فقمه😰🚀",
-   LoadingSubtitle = "سكربت عرب😾",
-   Theme = "Default", -- Check https://docs.sirius.menu/rayfield/configuration/themes
+   LoadingTitle = "من صنع فقمه و ام قرون😜🚀",
+   LoadingSubtitle = "يا بعد كلسوني انتي👹🍼",
+   Theme = "Bloom", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
    DisableRayfieldPrompts = false,
    DisableBuildWarnings = false, -- Prevents Rayfield from warning when the script has a version mismatch with the interface
@@ -187,16 +193,93 @@ local Button = Tab:CreateButton({
 loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Best-RTX-Script-9042"))()
    end,
 })
+local Tab = Window:CreateTab("سكنات🤩🔥") -- Title, Image
+local Section = Tab:CreateSection("السكربتات :")
+local Button = Tab:CreateButton({
+   Name = "راس الروبوت🤖",
+   Callback = function() 
+args = {
+    [1] = "CharacterChange",
+    [2] = {
+        [1] = 1,
+        [2] = 1,
+        [3] = 1,
+        [4] = 1,
+        [5] = 1,
+        [6] = 3210773801
+    },
+    [3] = "Roblox20"
+}
 
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):FireServer(unpack(args))
+end,
+})
+local Button = Tab:CreateButton({
+   Name = "جسم قزم",
+   Callback = function()
+local args = {
+    [1] = "CharacterChange",
+    [2] = {
+        [1] = 18865136555,
+        [2] = 14579959062,
+        [3] = 14579959191,
+        [4] = 14579959249,
+        [5] = 14579963667,
+        [6] = 1
+    },
+    [3] = "YinHub"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):FireServer(unpack(args))
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "جسم البنت",
+   Callback = function()
+local args = {
+    [1] = "CharacterChange",
+    [2] = {
+        [1] = 15599926323,
+        [2] = 15599926845,
+        [3] = 15599926809,
+        [4] = 1,
+        [5] = 1,
+        [6] = 1
+    },
+    [3] = "YinHub"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):FireServer(unpack(args))
+  end,
+})
+local Button = Tab:CreateButton({
+   Name = "رجل مقطوعه",
+   Callback = function() 
+local args = {
+    [1] = "CharacterChange",
+    [2] = {
+        [1] = 1,
+        [2] = 1,
+        [3] = 1,
+        [4] = 139607718,
+        [5] = 1,
+        [6] = 1
+    },
+    [3] = "Roblox20"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):FireServer(unpack(args))
+end,
+})
 Rayfield:Notify({
-   Title = "انا بندوره الحمره🔥",
-   Content = "من صنعي😜",
+   Title = "ايها السايكو بوي😜",
+   Content = "😜",
    Duration = 5,
    Image = 9794138570,
 })
 
 Rayfield:Notify({
-   Title = "تم تشغيل سكربت الفقمه😜🔥",
+   Title = "تم تشغيل سكربت ام قرون😜🔥",
    Content = "تتهنو😱",
    Duration = 5,
    Image = 9794138570,
