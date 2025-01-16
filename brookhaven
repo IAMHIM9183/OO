@@ -461,11 +461,3 @@ local Toggle = AddToggle(Main, {
     ESP.Names = Value
   end
 })
-
-AddColorPicker(Main, {
-  Name = "لون ESP ",
-  Default = Color3.fromRGB(255, 255, 0),
-  Callback = function(Value)
-    ESP.Color = Value
-  end
-})
