@@ -179,7 +179,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServ
   end
 })
 AddButton(Main, {
-  Name = "Speed",
+  Name = "Script",
   Callback = function()
     local args = {
     [1] = "RolePlayName",
