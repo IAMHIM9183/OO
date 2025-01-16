@@ -45,7 +45,7 @@ MakeWindow({
 })
 
 MinimizeButton({
-  Image = "rbxassetid://4611608889",
+  Image = "rbxassetid://5430597569",
   Size = {40, 40},
   Color = Color3.fromRGB(10, 10, 10),
   Corner = true,
@@ -56,7 +56,7 @@ MinimizeButton({
 local Main = MakeTab({Name = "info | معلومات"})
 local Image = AddImageLabel(Main, {
   Name = "",
-  Image = "rbxassetid://4611608889"
+  Image = "rbxassetid://5430597569"
 })
 local Paragraph = AddParagraph(Main, {"سكربت عبارة عن مجموعة كبيرة من مميزات استكشفها بنفسك ", "bom dia meus manos"})
 AddButton(Main, {
