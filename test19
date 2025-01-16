@@ -542,7 +542,7 @@ AddButton(Main, {
 })
 local Main = MakeTab({Name = "الاعب | Player"})
 AddTextBox(Main, {
-  Name = "سرعة",
+  Name = "Speed | سرعة",
   Default = "",
   PlaceholderText = "",
   ClearText = true,
@@ -551,7 +551,7 @@ game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = value
  end
 })
 AddTextBox(Main, {
-  Name = "قفز",
+  Name = "Jump Power | قفز",
   Default = "",
   PlaceholderText = "",
   ClearText = true,
@@ -622,3 +622,19 @@ local Toggle = AddToggle(Main, {
     Default = false,
     Callback = onNoclipToggle
 })
+AddTextBox(Main, {
+  Name = "Jump Power | قفز",
+  Default = "",
+  PlaceholderText = "",
+  ClearText = true,
+  Callback = function(value)
+button.MouseButton1Click:Connect(function()
+    -- Obter o valor do número
+    local number = tonumber(textBox.Text)
+    if number then
+        -- Configurar os argumentos
+        local args = {
+            [1] = "GivePermissionLoopToServer",
+            [2] = player,  -- Nome do jogador
+            [3] = number    -- Número inserido na GUI
+        }
