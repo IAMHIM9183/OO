@@ -1,31 +1,8 @@
-copyText()
-local args = {
-    [1] = "LoadClothing"
-}
-
-game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clien1tInf1o"):FireServer(unpack(args))
-local args = {
-    [1] = "EnteredGameLoadSlotNames"
-}
-
-game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rEdito1rMessag1e"):FireServer(unpack(args))
-local args = {
-    [1] = "LoadBackUpNameUI"
-}
-
-game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clien1tInf1o"):FireServer(unpack(args))
-local args = {
-    [1] = "SetUpSettingSave"
-}
-
-game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clien1tInf1o"):FireServer(unpack(args))
 local args = {
     [1] = "RolePlayName",
     [2] = "سـكـربـت المـطـورة جـيـوَن "
 }
-
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
-game.Players.LocalPlayer.Character.Humanoid.Health = 0
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/speedwavevip/speed_wave-1/refs/heads/main/Gui")))()
 MakeWindow({
   Hub = {
