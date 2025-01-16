@@ -225,7 +225,7 @@ local Paragraph = AddParagraph(Main, {"جسم ولد | Boy bodys", "bom dia meus
 AddButton(Main, {
   Name = "جسم ولد عضلات | Muscler Boy",
   Callback = function()
-    local args = {
+    print("Clicked")local args = {
     [1] = "CharacterChange",
     [2] = {
         [1] = 18178775358,
