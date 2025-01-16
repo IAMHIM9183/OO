@@ -242,6 +242,25 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):Fire
   end
 })
 AddButton(Main, {
+  Name = "جسم ولد نحيف | Thin body",
+  Callback = function()
+    print("Clicked")local args = {
+    [1] = "CharacterChange",
+    [2] = {
+        [1] = 14579958702,
+        [2] = 92757812011061,
+        [3] = 14579959191,
+        [4] = 84418052877367,
+        [5] = 124343282827669,
+        [6] = 1
+    },
+    [3] = "YinHub"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):FireServer(unpack(args))
+  end
+})
+AddButton(Main, {
   Name = "جسم ولد ايمو | Body boy Emo",
   Callback = function()
     local args = {
