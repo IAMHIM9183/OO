@@ -453,11 +453,3 @@ local Toggle = AddToggle(Main, {
     ESP.Players = Value
   end
 })
-
-local Toggle = AddToggle(Main, {
-  Name = "الاسامي الاعبين",
-  Default = false,
-  Callback = function(Value)
-    ESP.Names = Value
-  end
-})
