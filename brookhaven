@@ -27,7 +27,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/speedwavevip/speed_w
 MakeWindow({
   Hub = {
     Title = "SNAKE HUB | 1.0V",
-    Animation = "SCRPIT MR OMAR"
+    Animation = "SCRIPT MR OMAR"
   },
   Key = {
     KeySystem = false,
