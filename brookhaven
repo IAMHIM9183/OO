@@ -46,7 +46,7 @@ MakeWindow({
 
 MinimizeButton({
   Image = "rbxassetid://5430597569",
-  Size = {40, 40},
+  Size = {50, 50},
   Color = Color3.fromRGB(10, 10, 10),
   Corner = true,
   Stroke = true,
@@ -58,7 +58,7 @@ local Image = AddImageLabel(Main, {
   Name = "",
   Image = "rbxassetid://5430597569"
 })
-local Paragraph = AddParagraph(Main, {"سكربت عبارة عن مجموعة كبيرة من مميزات استكشفها بنفسك ", "bom dia meus manos"})
+local Paragraph = AddParagraph(Main, {"حقوق السكربت للفقمه | عمر ", "bom dia meus manos"})
 AddButton(Main, {
   Name = "انسخ حسابي تيك ",
   Callback = function()
