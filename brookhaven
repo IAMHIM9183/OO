@@ -26,7 +26,7 @@ game.StarterGui:SetCore("SendNotification", {
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/speedwavevip/speed_wave-1/refs/heads/main/Gui")))()
 MakeWindow({
   Hub = {
-    Title = "SNAKE HUB | 1.0V",
+    Title = "Script - OMAR Brookhaven | 1.0V",
     Animation = "SCRIPT MR OMAR"
   },
   Key = {
@@ -202,7 +202,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):Fire
   end
 })
 AddButton(Main, {
-  Name = "رجل رول | Roll Leg",
+  Name = "رجل رول | Green Leg",
   Callback = function()
     print("Clicked")local args = {
     [1] = "CharacterChange",
@@ -298,6 +298,14 @@ AddButton(Main, {
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):FireServer(unpack(args))
   end
 })
+local Main = MakeTab({Name = "سكربت قتل و حمايه | ⚠️"})
+AddButton(Main, {
+  Name = "سكربت قتل كنبه | ⚠️",
+  Callback = function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/TXMNj1yy'))()
+  end
+})
+
 local Main = MakeTab({Name = "تنقل | Teleport"})
 AddButton(Main, {
   Name = "تنقل | Teleport",
@@ -504,13 +512,6 @@ AddButton(Main, {
   Name = "سكربت اختفاء | invisible script",
   Callback = function()
     loadstring(game:HttpGet('https://pastebin.com/raw/3Rnd9rHf'))()
-  end
-})
-
-AddButton(Main, {
-  Name = " سكربت طيران كنبة  | Script couch fling",
-  Callback = function()
-    loadstring(game:HttpGet('https://pastebin.com/raw/TXMNj1yy'))()
   end
 })
 
