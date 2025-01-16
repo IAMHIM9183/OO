@@ -464,7 +464,7 @@ AddButton(Main, {
     Callback = teleportToAirport
 })
 
-local Main = MakeTab({Name = "سكربتات تفيدك | Scripts may be useful"})
+local Main = MakeTab({Name = "سكربتات تفيدك | Good scripts"})
 AddButton(Main, {
   Name = "سكربت جودة | HDR Script",
   Callback = function()
