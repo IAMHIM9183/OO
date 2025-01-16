@@ -223,7 +223,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):Fire
 local Main = MakeTab({Name = "الاجسام | Body"})
 local Paragraph = AddParagraph(Main, {"جسم ولد | Boy bodys", "bom dia meus manos"})
 AddButton(Main, {
-  Name = "جسم كوبي | Slender body",
+Name = "جسم كوبي | UM",
   Callback = function()
     print("Clicked")local args = {
     [1] = "CharacterChange",
