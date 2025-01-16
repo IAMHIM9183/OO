@@ -446,7 +446,7 @@ AddButton(Main, {
   end
 })
 local Main = MakeTab({Name = "ESP | كشف"})
-local Toggle = AddToggle(Main, {
+AddButton(Main, {
   Name = "تفعيل الكشف",
   Default = false,
   Callback = function(Value)
