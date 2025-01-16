@@ -223,6 +223,25 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):Fire
 local Main = MakeTab({Name = "الاجسام | Body"})
 local Paragraph = AddParagraph(Main, {"جسم ولد | Boy bodys", "bom dia meus manos"})
 AddButton(Main, {
+  Name = "جسم ولد عضلات | Muscler Boy",
+  Callback = function()
+    local args = {
+    [1] = "CharacterChange",
+    [2] = {
+        [1] = 18178775358,
+        [2] = 18178775182,
+        [3] = 18178775725,
+        [4] = 18178777453,
+        [5] = 18178775695,
+        [6] = ,
+    },
+    [3] = "YinHub"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):FireServer(unpack(args))
+  end
+})
+AddButton(Main, {
   Name = "small body | جسم القزم",
   Callback = function()
     print("Clicked")local args = {
