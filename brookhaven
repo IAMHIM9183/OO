@@ -959,7 +959,7 @@ AddButton(Main, {
   end
 })
 local Main = MakeTab({Name = "ESP / كشف"})
-local Toggle = AddToggle(Main, {
+AddToggle(Main, {
   Name = "تفعيل الكشف",
   Default = false,
   Callback = function(Value)
@@ -967,7 +967,7 @@ local Toggle = AddToggle(Main, {
   end
 })
 
-local Toggle = AddToggle(Main, {
+AddToggle(Main, {
   Name = "الاسامي الاعبين",
   Default = false,
   Callback = function(Value)
