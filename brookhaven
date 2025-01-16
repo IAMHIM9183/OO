@@ -1,7 +1,7 @@
 wait(0.1)
 game.StarterGui:SetCore("SendNotification", {
-    Title = "جارِ تحميل سكربت ";
-    Text = " سكربت اشلي گانيس "; -- ARAB TEAM
+    Title = "جارِ تحميل سكربت☣️ ";
+    Text = " سكربت عمر🈚️🗿 "; -- ARAB TEAM
     Duration = 5;
 })
 wait(0.1)
@@ -45,7 +45,7 @@ MakeWindow({
 })
 
 MinimizeButton({
-  Image = "rbxassetid://16905163783",
+  Image = "rbxassetid://4611608889",
   Size = {40, 40},
   Color = Color3.fromRGB(10, 10, 10),
   Corner = true,
@@ -56,7 +56,7 @@ MinimizeButton({
 local Main = MakeTab({Name = "info | معلومات"})
 local Image = AddImageLabel(Main, {
   Name = "",
-  Image = "rbxassetid://16905163783"
+  Image = "rbxassetid://4611608889"
 })
 local Paragraph = AddParagraph(Main, {"سكربت عبارة عن مجموعة كبيرة من مميزات استكشفها بنفسك ", "bom dia meus manos"})
 AddButton(Main, {
