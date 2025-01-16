@@ -647,9 +647,9 @@ AddButton(Main, {
   end
 })
 AddButton(Main, {
-  Name = "اذا يطلعك ترجع الماب",
+  Name = "ترجع تدخل ماب | Rejoin",
   Callback = function()
-    loadstring(game:HttpGet("https://[Log in to view URL]", true))()
+    loadstring(game:HttpGet("https://pastebin.com/raw/C56GfizD"))()
   end
 })
 
@@ -753,7 +753,7 @@ AddTextBox(Main, {
 
 -- Adicionando o toggle para ativar/desativar a visualização
 AddToggle(Main, {
-    Name = "شاهد",
+    Name = "شاهد | View",
     Default = false,
     Callback = function(enabled)
         viewEnabled = enabled
