@@ -333,12 +333,6 @@ local Slider = AddSlider(Main, {
     
   end
 })
-AddButton(Main, {
-    Name = "محطه البنزين | Gas Station",
-    Description = "",
-    Callback = teleportToGasStation
-})
-
 -- Function to teleport to Teleport
 local function teleportToCenter()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(136, 4, 117)
@@ -437,12 +431,6 @@ AddButton(Main, {
     Description = "Teleporta para as coordenadas do Hospital",
     Callback = teleportToHospital
 })
-AddButton(Main, {
-    Name = "جو الأرض | Secret Place",
-    Description = "Teleporta para as coordenadas da Sala Secreta na Oficina",
-    Callback = teleportToSecretRoomInWorkshop
-})
-
 -- Function to teleport to Secret Room 2
 local function teleportToSecretRoom2()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-343, 4, -613)
