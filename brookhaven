@@ -221,7 +221,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):Fire
   end
 })
 local Main = MakeTab({Name = "الاجسام | Body"})
-local Paragraph = AddParagraph(Main, {"الاجسام", "bom dia meus manos"})
+local Paragraph = AddParagraph(Main, {"جسم ولد | Boy bodys", "bom dia meus manos"})
 AddButton(Main, {
   Name = "small body | جسم القزم",
   Callback = function()
@@ -233,25 +233,6 @@ AddButton(Main, {
         [3] = 14579959191,
         [4] = 14579959249,
         [5] = 14579963667,
-        [6] = 1
-    },
-    [3] = "YinHub"
-}
-
-game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):FireServer(unpack(args))
-  end
-})
-AddButton(Main, {
-  Name = "جسم البنت | Girl body ",
-  Callback = function()
-    print("Clicked")local args = {
-    [1] = "CharacterChange",
-    [2] = {
-        [1] = 96491916349570,
-        [2] = 86499698,
-        [3] = 86499716,
-        [4] = 1,
-        [5] = 1,
         [6] = 1
     },
     [3] = "YinHub"
@@ -279,6 +260,7 @@ AddButton(Main, {
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):FireServer(unpack(args))
   end
 })
+local Paragraph = AddParagraph(Main, {"جسم بنت | Girls Bodys", "bom dia meus manos"})
 AddButton(Main, {
   Name = "جسم بنت Y2k | Body Girl Y2k",
   Callback = function()
@@ -290,6 +272,25 @@ AddButton(Main, {
         [3] = 15539008680,
         [4] = 15539008795,
         [5] = 15539011945,
+        [6] = 1
+    },
+    [3] = "YinHub"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):FireServer(unpack(args))
+  end
+})
+AddButton(Main, {
+  Name = "جسم بنت | Girl body ",
+  Callback = function()
+    print("Clicked")local args = {
+    [1] = "CharacterChange",
+    [2] = {
+        [1] = 96491916349570,
+        [2] = 86499698,
+        [3] = 86499716,
+        [4] = 1,
+        [5] = 1,
         [6] = 1
     },
     [3] = "YinHub"
