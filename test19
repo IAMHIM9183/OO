@@ -622,19 +622,3 @@ local Toggle = AddToggle(Main, {
     Default = false,
     Callback = onNoclipToggle
 })
-AddTextBox(Main, {
-  Name = "Jump Power | قفز",
-  Default = "",
-  PlaceholderText = "",
-  ClearText = true,
-  Callback = function(value)
-button.MouseButton1Click:Connect(function()
-    -- Obter o valor do número
-    local number = tonumber(textBox.Text)
-    if number then
-        -- Configurar os argumentos
-        local args = {
-            [1] = "GivePermissionLoopToServer",
-            [2] = player,  -- Nome do jogador
-            [3] = number    -- Número inserido na GUI
-        }
