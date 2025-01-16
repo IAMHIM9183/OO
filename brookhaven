@@ -305,7 +305,12 @@ AddButton(Main, {
     loadstring(game:HttpGet('https://pastebin.com/raw/TXMNj1yy'))()
   end
 })
-
+AddButton(Main, {
+  Name = "سكربت محد يقدر يطيرك | ⚠️",
+  Callback = function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/TXMNj1yy'))()
+  end
+})
 local Main = MakeTab({Name = "تنقل | Teleport"})
 AddButton(Main, {
   Name = "تنقل | Teleport",
