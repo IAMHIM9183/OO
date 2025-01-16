@@ -643,7 +643,7 @@ AddButton(Main, {
 AddButton(Main, {
   Name = "ادمن",
   Callback = function()
-    loadstring(game:HttpGet("https://[Log in to view URL]"))()
+    loadstring(game:HttpGet("https://scriptblox.com/raw/Infinite-Yield_500"))()
   end
 })
 AddButton(Main, {
@@ -791,7 +791,7 @@ end
 -- Iniciando a função de manutenção da câmera
 spawn(maintainView)
 AddButton(Main, {
-  Name = "طيران الاعب",
+  Name = "طيران الاعب | Fly Player",
   Callback = function()
     loadstring(game:HttpGet("https://[Log in to view URL]"))()
   end
