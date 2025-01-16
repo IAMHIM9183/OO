@@ -26,7 +26,7 @@ local args = {
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
 game.Players.LocalPlayer.Character.Humanoid.Health = 0
-loadstring(game:HttpGet(("https://[Log in to view URL]")))()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/speedwavevip/speed_wave-1/refs/heads/main/Gui")))()
 MakeWindow({
   Hub = {
     Title = "Script Jeon brookhaven ",
@@ -1685,61 +1685,3 @@ local function gplr(String)
     local strl = String:lower()
     local Found = {}
     for _, v
-
-
-
-
-
-
-هنا وحد 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-loadstring(game:HttpGet(("https://[Log in to view URL]")))()
-MakeWindow({
-  Hub = {
-    Title = "REDz HUB",
-    Animation = "by : redz9999"
-  },
-  Key = {
-    KeySystem = false,
-    Title = "Key System",
-    Description = "",
-    KeyLink = "",
-    Keys = {"1234"},
-    Notifi = {
-      Notifications = true,
-      CorrectKey = "Running the Script...",
-      Incorrectkey = "The key is incorrect",
-      CopyKeyLink = "Copied to Clipboard"
-    }
-  }
-})
-MinimizeButton({
-  Image = "",
-  Size = {40, 40},
-  Color = Color3.fromRGB(10, 10, 10),
-  Corner = true,
-  Stroke = false,
-  StrokeColor = Color3.fromRGB(255, 0, 0)
-})
-local Main = MakeTab({Name = "Main"})
-local Toggle = AddToggle(Main, {
-  Name = "Auto click",
-  Default = false,
-  Callback = function(Value)
-while true do
-game:GetService("ReplicatedStorage").Packages.Knit.Services.ArmWrestleService.RE.onClickRequest:FireServer()
-  wait(0)
-end
