@@ -958,3 +958,32 @@ AddButton(Main, {
     loadstring(game:HttpGet("https://pastebin.com/raw/rr1JnHwg"))()
   end
 })
+local Main = MakeTab({Name = "ESP / كشف"})
+local ESP = loadstring(game:HttpGet("https://[Log in to view URL]"))()
+ESP:Toggle(true)
+ESP.Players = false
+ESP.Names = false
+
+local Toggle = AddToggle(Main, {
+  Name = "تفعيل الكشف",
+  Default = false,
+  Callback = function(Value)
+    ESP.Players = Value
+  end
+})
+
+local Toggle = AddToggle(Main, {
+  Name = "الاسامي الاعبين",
+  Default = false,
+  Callback = function(Value)
+    ESP.Names = Value
+  end
+})
+
+AddColorPicker(Main, {
+  Name = "لون ESP ",
+  Default = Color3.fromRGB(255, 255, 0),
+  Callback = function(Value)
+    ESP.Color = Value
+  end
+})
