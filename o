@@ -2,7 +2,9 @@ local args = {
     [1] = "RolePlayName",
     [2] = "سـكـربـت المـطـورة جـيـوَن "
 }
+
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
+
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/speedwavevip/speed_wave-1/refs/heads/main/Gui")))()
 MakeWindow({
   Hub = {
