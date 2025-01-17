@@ -1003,3 +1003,9 @@ local Toggle = AddToggle(Main, {
     Default = false,
     Callback = onInfiniteJumpToggle
 })
+AddButton(Main, {
+  Name = "اقتل نفسك | Reset",
+  Callback = function()
+    game.Players.LocalPlayer.Character.Humanoid.Health = 0
+  end
+})
