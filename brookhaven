@@ -818,7 +818,7 @@ AddButton(Main, {
   end
 })
 AddButton(Main, {
-  Name = "ادمن",
+  Name = "ادمن | Admin",
   Callback = function()
     loadstring(game:HttpGet("https://scriptblox.com/raw/Infinite-Yield_500"))()
   end
