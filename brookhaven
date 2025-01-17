@@ -796,6 +796,21 @@ local Camera = workspace.CurrentCamera
 Camera.FieldOfView = FovNumber  
   end
 })
+AddTextBox(Main, {
+  Name = "Spin | دوران",
+  Default = "",
+  PlaceholderText = "دخل رقم",
+  ClearText = true,
+  Callback = function(Value)
+    getgenv().Spinspeed = Value
+
+local Spin = Instance.new'BodyAngularVelocity'
+Spin.Parent = game:GetService'Players'.LocalPlayer.Character:FindFirstChild'HumanoidRootPart'
+Spin.MaxTorque = Vector3.new(0, math.huge, 100)
+wait(0.1)
+Spin.AngularVelocity = Vector3.new(100,Spinspeed,0)
+  end
+})
 AddButton(Main, {
   Name = "كنبه | Couch",
   Callback = function()
