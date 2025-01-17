@@ -312,7 +312,7 @@ AddButton(Main, {
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):FireServer(unpack(args))
   end
 })
-local Paragraph = AddParagraph(Main, {"الارجل ", "bom dia meus manos"})
+local Paragraph = AddParagraph(Main, {"الارجل | Legs", "bom dia meus manos"})
 AddButton(Main, {
   Name = "رجل العظام الاسود | Black bone leg",
   Callback = function()
