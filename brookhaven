@@ -768,27 +768,27 @@ AddButton(Main, {
 })
 local Main = MakeTab({Name = "الاعب | Player"})
 AddTextBox(Main, {
-  Name = "سرعة",
+  Name = "سرعة | Speed",
   Default = "",
-  PlaceholderText = "",
+  PlaceholderText = "ادخل رقم",
   ClearText = true,
   Callback = function(value)
 game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = value     
  end
 })
 AddTextBox(Main, {
-  Name = "قفز",
+  Name = "قفز | Jump",
   Default = "",
-  PlaceholderText = "",
+  PlaceholderText = "ادخل رقم",
   ClearText = true,
   Callback = function(value)
 game.Players.LocalPlayer.Character.Humanoid.JumpPower = value    
   end
 })
 AddTextBox(Main, {
-  Name = "Fov",
+  Name = "Fov | شاشه",
   Default = "",
-  PlaceholderText = "",
+  PlaceholderText = "ادخل رقم",
   ClearText = true,
   Callback = function(value)
 local FovNumber = value
@@ -799,7 +799,7 @@ Camera.FieldOfView = FovNumber
 AddTextBox(Main, {
   Name = "Spin | دوران",
   Default = "",
-  PlaceholderText = "دخل رقم",
+  PlaceholderText = "ادخل رقم",
   ClearText = true,
   Callback = function(Value)
     getgenv().Spinspeed = Value
