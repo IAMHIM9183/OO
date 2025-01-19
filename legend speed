@@ -129,6 +129,8 @@ AddButton(Main, {
             char.HumanoidRootPart.CFrame = CFrame.new(-537.767456, 3.95088959, 386.226837, 1, 0, 0, 0, 1, 0, 0, 0, 1)
   end
 })
+local Main = MakeTab({Name = "المتجر | SHOP"})
+
 local Main = MakeTab({Name = "Player | الاعب"})
 AddButton(Main, {
   Name = "Fly | الطيران",
