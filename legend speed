@@ -134,7 +134,7 @@ AddToggle(Main, {
     Name = "افتح اقوى بيضه | Hatch Best egg",
     Default = false,
     Callback = function(enabled)
-_G.BestEgg = (state and true or false)
+	_G.BestEgg = 
 	wait()
 	while _G.BestEgg == true do
 		wait()
